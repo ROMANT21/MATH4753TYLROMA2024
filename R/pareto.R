@@ -1,10 +1,12 @@
 #' The Pareto Function
 #'
+#'
 #' @param x a replicant vector
 #' @param mn the title of the pareto graph
 #' @param ...
 #'
 #' @return the pareto graph
+#' @importFrom graphics axis segments title
 #' @export
 #'
 #' @examples
