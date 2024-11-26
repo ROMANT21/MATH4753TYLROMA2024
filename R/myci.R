@@ -1,4 +1,4 @@
-#' myci
+#' A function for getting the mean confident intervals.
 #'
 #' @param sample a sample
 #'
@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @examples
+#' myci(rnorm(20, 14, 2))
 myci = function (sample) {
   n = length(sample)
   t_alpha_2 = qt(1-.05/2, n-1)

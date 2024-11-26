@@ -2,7 +2,7 @@
 % Please edit documentation in R/mypvalue.R
 \name{mypvalue}
 \alias{mypvalue}
-\title{mypvalue}
+\title{Display P-value areas}
 \usage{
 mypvalue(t0, xmax = 4, n = 20, alpha = 0.05)
 }
@@ -19,7 +19,7 @@ mypvalue(t0, xmax = 4, n = 20, alpha = 0.05)
 displays p-value areas and returns list with q and pvalue
 }
 \description{
-mypvalue
+Display P-value areas
 }
 \examples{
 set.seed(55)

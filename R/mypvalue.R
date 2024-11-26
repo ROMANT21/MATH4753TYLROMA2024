@@ -1,5 +1,4 @@
-# Display P-value areas
-#'  mypvalue
+#' Display P-value areas
 #'
 #' @param t0 t_calc
 #' @param xmax max x value on plots

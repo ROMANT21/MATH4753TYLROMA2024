@@ -1,5 +1,4 @@
-
-#' My adjusted boot function
+#' An adjusted bootstrap function
 #'
 #' @param iter number of samples to make
 #' @param x sample to resample from
@@ -7,10 +6,11 @@
 #' @param alpha confidence interval
 #' @param ... extra parameters
 #'
-#' @return a list of useful data
+#' @return a list of useful data containing the confident intervals, the function used, the value of x, and the value of x stat
 #' @export
 #'
 #' @examples
+#' adjmyboot(x=rnorm(40, 1, 1))
 adjmyboot<-function(iter=10000,x,fun="mean",alpha=0.05,...){
 
   #Notice where the ... is repeated in the code

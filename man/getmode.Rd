@@ -2,7 +2,7 @@
 % Please edit documentation in R/getmode.R
 \name{getmode}
 \alias{getmode}
-\title{The get mode function}
+\title{A custom function for getting the mode of a vector.}
 \usage{
 getmode(v)
 }
@@ -13,7 +13,7 @@ getmode(v)
 the mode of the vector
 }
 \description{
-The get mode function
+A custom function for getting the mode of a vector.
 }
 \examples{
 getmode(c(1, 2, 3, 3, 5))

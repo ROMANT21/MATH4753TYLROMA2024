@@ -2,7 +2,7 @@
 % Please edit documentation in R/mymaxlik.R
 \name{mymaxlik}
 \alias{mymaxlik}
-\title{mymaxlik}
+\title{A function for getting the parameters that maximize a liklihood function.}
 \usage{
 mymaxlik(lfun, x, param, ...)
 }
@@ -19,7 +19,7 @@ mymaxlik(lfun, x, param, ...)
 a graph and information about the parameter that maximizes the likelihood function
 }
 \description{
-mymaxlik
+A function for getting the parameters that maximize a liklihood function.
 }
 \examples{
 y = c(3, 3, 4, 3, 4, 5, 5, 4)

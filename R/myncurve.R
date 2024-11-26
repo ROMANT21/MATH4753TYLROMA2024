@@ -1,4 +1,4 @@
-#' myncurve
+#' A normal curve function that visualizes probability
 #'
 #' @param mu the mean of the distribution
 #' @param sigma the standard devaition of the distribution

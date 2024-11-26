@@ -1,4 +1,4 @@
-#' The get mode function
+#' A custom function for getting the mode of a vector.
 #'
 #' @param v a vector of quantitative data
 #'

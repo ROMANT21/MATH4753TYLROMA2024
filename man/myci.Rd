@@ -2,7 +2,7 @@
 % Please edit documentation in R/myci.R
 \name{myci}
 \alias{myci}
-\title{myci}
+\title{A function for getting the mean confident intervals.}
 \usage{
 myci(sample)
 }
@@ -13,5 +13,8 @@ myci(sample)
 confidence intervals of 95%
 }
 \description{
-myci
+A function for getting the mean confident intervals.
+}
+\examples{
+myci(rnorm(20, 14, 2))
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/mycltp.R
 \name{mycltp}
 \alias{mycltp}
-\title{mycltp}
+\title{A function for showing the central limit theorem}
 \usage{
 mycltp(n, iter, lambda = 10, ...)
 }
@@ -19,7 +19,7 @@ mycltp(n, iter, lambda = 10, ...)
 nothing, but creates a plot of the normal distribution of the mean of the samples.
 }
 \description{
-mycltp
+A function for showing the central limit theorem
 }
 \examples{
 mycltp(n=2, iter=10000, lambda=4)

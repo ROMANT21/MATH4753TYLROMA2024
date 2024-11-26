@@ -2,7 +2,7 @@
 % Please edit documentation in R/myncurve.R
 \name{myncurve}
 \alias{myncurve}
-\title{myncurve}
+\title{A normal curve function that visualizes probability}
 \usage{
 myncurve(mu, sigma, a)
 }
@@ -17,7 +17,7 @@ myncurve(mu, sigma, a)
 A list with mu, sigma, and area
 }
 \description{
-myncurve
+A normal curve function that visualizes probability
 }
 \examples{
 myncurve(5, 2, 2)

@@ -1,5 +1,5 @@
 
-#' mycltp
+#' A function for showing the central limit theorem
 #'
 #' @param n the number of observations in a sample
 #' @param iter the numeber of samples

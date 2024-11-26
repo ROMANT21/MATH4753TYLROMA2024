@@ -2,7 +2,7 @@
 % Please edit documentation in R/myboot2.R
 \name{adjmyboot}
 \alias{adjmyboot}
-\title{My adjusted boot function}
+\title{An adjusted bootstrap function}
 \usage{
 adjmyboot(iter = 10000, x, fun = "mean", alpha = 0.05, ...)
 }
@@ -18,8 +18,11 @@ adjmyboot(iter = 10000, x, fun = "mean", alpha = 0.05, ...)
 \item{...}{extra parameters}
 }
 \value{
-a list of useful data
+a list of useful data containing the confident intervals, the function used, the value of x, and the value of x stat
 }
 \description{
-My adjusted boot function
+An adjusted bootstrap function
+}
+\examples{
+adjmyboot(x=rnorm(40, 1, 1))
 }

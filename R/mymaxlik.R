@@ -1,4 +1,4 @@
-#' mymaxlik
+#' A function for getting the parameters that maximize a liklihood function.
 #'
 #' @param lfun the likelihood function for a distribution
 #' @param x the sample
